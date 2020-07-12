@@ -10,6 +10,10 @@
     <form id="form1" runat="server">
         <div>
             <asp:Label ID="Label1" runat="server" Text="Welcome to GitHub! "></asp:Label>
+            <br />
+            <asp:Label ID="Label2" runat="server" Text="Enter your name: "></asp:Label>
+            <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+            <asp:Button ID="Button1" runat="server" Text="Save" />
         </div>
     </form>
 </body>
